@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Title{% endblock %}</title>
+</head>
+<body>
+<div class="body" style="text-align: center">
+    <div>
+        <h1>にほんご Vocabulary</h1>
+    </div>
+    <div>
+        <a href="/"><button><h3>Home</h3></button></a>
+    </div>
+    <br>
+    <br>
+    {% block body %}
+    {% endblock %}
+</div>
+<div style="text-align: center">
+    <h4>Copyright © 2022 ZsaAupo</h4>
+</div>
+</body>
+</html>
